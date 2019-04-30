@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>nodejs框架培训</section>
+				<section data-markdown>
+					- js,html,css
+					- ECMAScript,es6,ts
+					- jQuery,anguler,react,vue
+					- grunt,gulp,webpack
+					- jest
+					- nodejs,express,koa,egg,nest
+					- docker,microservice,k8s
+					- mongo,redis,mysql
+					- mqtt,rebbitmq
+				</section>
+				<section data-markdown>
+					# github
+					全球最大的开源仓库
+					项目下载
+					```bash
+						git clone https://github.com/noyota/men-vue
+					```
+					项目下三个分支master,only-client,only-server
+					- github使用
+					- 项目仓库创建和协作开发
+				</section>
+				<section data-markdown>
+					- yarn使用
+					- package.json
+				</section>
+				<section data-markdown>
+					## 前端页面
+					- vue,vue-cli
+					- elementui
+				</section>
+				<section data-markdown>
+					## 后端服务
+					- express,rest-api,mongoose
+					- route
+					- controller
+					- model
+				</section>
+				<section data-markdown>
+					生成器polp
+					- 使用
+					- 开发
+					- 编写生成器
+				</section>
+				<section data-markdown>
+					ppt制作框架 reveal.js
+					```bash
+					git clone https://github.com/hakimel/reveal.js.git
+					```
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
